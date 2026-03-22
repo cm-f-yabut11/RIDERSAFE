@@ -1,0 +1,40 @@
+{
+  "name": "RiderSafe",
+  "short_name": "RiderSafe",
+  "description": "Ride safe, stay connected. Real-time safety check-ins for Filipino riders.",
+  "start_url": "/RIDERSAFE_Project/index.php",
+  "scope": "/RIDERSAFE_Project/",
+  "display": "standalone",
+  "background_color": "#0d1b2a",
+  "theme_color": "#2a6b8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/RIDERSAFE_Project/assets/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/RIDERSAFE_Project/assets/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Safety Button",
+      "short_name": "SAFE",
+      "description": "Tap to send a safety ping",
+      "url": "/RIDERSAFE_Project/button_page.php",
+      "icons": [{ "src": "/RIDERSAFE_Project/assets/logo.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Home",
+      "url": "/RIDERSAFE_Project/rider_home.php",
+      "icons": [{ "src": "/RIDERSAFE_Project/assets/logo.png", "sizes": "96x96" }]
+    }
+  ]
+}
